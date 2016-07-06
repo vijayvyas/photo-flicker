@@ -56,5 +56,3 @@ gem 'rails_12factor'
 
 gem 'faker'
 
-#lorempixel
-gem 'lorempixel'

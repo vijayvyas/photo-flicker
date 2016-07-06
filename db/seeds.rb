@@ -24,3 +24,9 @@ end
 Photo.where(url: nil).each do |photo|
   photo.update_column :url, "https://unsplash.it/500"
 end
+
+Photo.all.each do |photo|
+  rand(5).times do
+    photo.comments.create! username: Faker::Internet.user_name, body: Faker::Hipster.sentence
+  end
+end
