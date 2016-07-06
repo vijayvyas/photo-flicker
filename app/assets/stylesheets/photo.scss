@@ -1,0 +1,8 @@
+.card {
+  width: 700px;
+  margin: 0 auto 30px; // align cards in the center
+  img {
+    max-width: 100%; // image should not be bigger than card
+    border-radius: 0; // remove the rounded corner
+  }
+}
